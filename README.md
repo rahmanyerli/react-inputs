@@ -2,13 +2,17 @@
 
 **Standart Text Input**
 
-`<input type="text" className="color-red" onChange={this.testFunction}/>`
+```js
+<input type="text" className="color-red" onChange={this.testFunction}/>
+`
 
 **Text Component**
 
-`<Text class="color-red" onchange={this.testFunction}/>`
+```js
+<Text class="color-red" onchange={this.testFunction}/>
+`
 
-> /src/components/inputs/index.js
+- [/src/components/inputs/index.js](https://github.com/rahmanyerli/react-inputs/blob/master/src/index.js)
 
 
 # Sample Components
@@ -35,7 +39,8 @@ class Label extends Component {
 
 **Text**
 
-`class Text extends Component {
+```js
+class Text extends Component {
 	render() {
 		return (
 			<input type="text"
@@ -50,11 +55,13 @@ class Label extends Component {
 			/>
 		);
 	}
-}`
+}
+```
 
 **Email**
 
-`class Email extends Component {
+```js
+class Email extends Component {
 	render() {
 		return (
 			<input type="email"
@@ -69,11 +76,13 @@ class Label extends Component {
 			/>
 		);
 	}
-}`
+}
+```
 
 **Password**
 
-`class Password extends Component {
+```js
+class Password extends Component {
 	render() {
 		return (
 			<input type="password"
@@ -89,11 +98,13 @@ class Label extends Component {
 			/>
 		);
 	}
-}`
+}
+```
 
 **Button**
 
-`class Button extends Component {
+```js
+class Button extends Component {
 	render() {
 		return (
 			<button type="button"
@@ -108,11 +119,12 @@ class Label extends Component {
 			</button>
 		);
 	}
-}`
+}
+```
 
 ## Usage
 
-`
+```js
 import React, { Component } from 'react';
 import { Label, Text, Email, Password, Button } from "../inputs";
 
@@ -168,4 +180,4 @@ class SignUp extends Component {
 }
 
 export default SignUp;
-`
+```
