@@ -1,9 +1,11 @@
 # Convert basic HTML elements to React-Components and continue coding with your familiar syntax.
 
 **Standart Text Input**
+
 `<input type="text" className="color-red" onChange={this.testFunction}/>`
 
 **Text Component**
+
 `<Text class="color-red" onchange={this.testFunction}/>`
 
 > /src/components/inputs/index.js
@@ -15,7 +17,7 @@ Note: Components and props can be expanded according to your needs.
 
 **Label**
 
-`
+```js
 class Label extends Component {
 	render() {
 		return (
@@ -29,7 +31,7 @@ class Label extends Component {
 		);
 	}
 }
-`
+```
 
 **Text**
 
