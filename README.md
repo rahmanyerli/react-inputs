@@ -1,16 +1,14 @@
 # Convert basic HTML elements to React-Components and continue coding with your familiar syntax.
 
 **Standart Text Input**
-
 ```js
 <input type="text" className="color-red" onChange={this.testFunction}/>
-`
+```
 
 **Text Component**
-
 ```js
 <Text class="color-red" onchange={this.testFunction}/>
-`
+```
 
 - [/src/components/inputs/index.js](https://github.com/rahmanyerli/react-inputs/blob/master/src/index.js)
 
