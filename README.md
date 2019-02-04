@@ -1,5 +1,7 @@
 # Convert basic HTML elements to React-Components and continue coding with your familiar syntax.
 
+> Note: This is not a component library, you can just think of it as an approach to keep your code cleaner.
+
 **Standart Text Input**
 ```js
 <input type="text" className="color-red" onChange={this.testFunction}/>
