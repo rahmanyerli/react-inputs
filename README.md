@@ -10,7 +10,7 @@
 <Text class="color-red" onchange={this.testFunction}/>
 ```
 
-- [/src/components/inputs/index.js](https://github.com/rahmanyerli/react-inputs/blob/master/src/index.js)
+- [/src/components/inputs/index.js](https://github.com/rahmanyerli/react-inputs/blob/master/src/components/inputs/index.js)
 
 
 # Sample Components
