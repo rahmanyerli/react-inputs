@@ -12,7 +12,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -26,5 +28,8 @@
 	"main": "index.js",
 	"repository": "https://github.com/rahmanyerli/react-inputs.git",
 	"author": "Rahman Yerli <rahmanyerli@gmail.com>",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"gh-pages": "^2.0.1"
+	}
 }
