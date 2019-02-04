@@ -1,29 +1,30 @@
 {
-  "name": "react-inputs",
-  "version": "1.0.0",
-  "private": false,
-  "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "main": "index.js",
-  "repository": "https://github.com/rahmanyerli/react-inputs.git",
-  "author": "Rahman Yerli <rahmanyerli@gmail.com>",
-  "license": "MIT"
+	"name": "react-inputs",
+	"version": "1.0.0",
+	"private": false,
+	"homepage": "https://rahmanyerli.github.io/react-inputs/",
+	"dependencies": {
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0",
+		"react-scripts": "2.1.3"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"main": "index.js",
+	"repository": "https://github.com/rahmanyerli/react-inputs.git",
+	"author": "Rahman Yerli <rahmanyerli@gmail.com>",
+	"license": "MIT"
 }
