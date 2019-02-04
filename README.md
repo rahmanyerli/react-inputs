@@ -15,7 +15,7 @@ Note: Components and props can be expanded according to your needs.
 
 **Label**
 
-````Label Component
+`
 class Label extends Component {
 	render() {
 		return (
@@ -28,7 +28,8 @@ class Label extends Component {
 			</label>
 		);
 	}
-}```
+}
+`
 
 **Text**
 
@@ -109,7 +110,8 @@ class Label extends Component {
 
 ## Usage
 
-`import React, { Component } from 'react';
+`
+import React, { Component } from 'react';
 import { Label, Text, Email, Password, Button } from "../inputs";
 
 class SignUp extends Component {
@@ -163,4 +165,5 @@ class SignUp extends Component {
 	}
 }
 
-export default SignUp;`
+export default SignUp;
+`
