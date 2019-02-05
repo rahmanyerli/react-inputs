@@ -2,7 +2,7 @@
 	"name": "react-inputs",
 	"version": "1.0.0",
 	"private": false,
-	"homepage": "https://rahmanyerli.github.io/react-inputs/",
+	"homepage": "https://rahmanyerli.github.io/react-inputs",
 	"dependencies": {
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
